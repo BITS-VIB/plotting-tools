@@ -1,7 +1,6 @@
 ## plotting-tools
-==========
 
-Create plots from numbers
+Create plots from numbers.
 
 ### **2histo.R** 
 
