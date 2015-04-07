@@ -5,4 +5,5 @@ Create plots from numbers
 
 ## **2histo.R** 
 
-R code to create aa histogram and boxplot from stdin lists of numbers. Can be piped from any command generating one column of numeric data.
+**[2histo.R](plotting-tools/2histo.R)** creates a histogram, a boxplot, and a summary table from a stdin column of numbers. It can be piped from any command generating one column of numeric data.
+
