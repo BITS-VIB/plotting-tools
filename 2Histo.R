@@ -13,8 +13,10 @@ suppressMessages(library("gplots"))
 data  <- as.numeric(readLines(file("stdin")))
 closeAllConnections()
 
+# customize quantiles
+p <- c(0, 5, 25, 50, 75, 95, 100)/100
 qt <- round( quantile(data,
-                      probs = seq(0, 1, 0.25),
+                      probs = p,
                       na.rm = FALSE,
                       names = TRUE,
                       type = 7),
