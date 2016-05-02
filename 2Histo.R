@@ -25,7 +25,7 @@ qt <- round( quantile(data,
 table <- as.data.frame(qt)
 colnames(table) <- "Quantiles"
 
-png(file="2isto.png",  width = 640, height = 480,
+png(file="2histo.png",  width = 640, height = 480,
     units = "px", pointsize = 12, bg = "white" )
 
 par(mar=c(5, 4, 4, 2)+0.1, mai=c(0.5,0.75,0.5,0.75))
