@@ -1,10 +1,11 @@
 #!/usr/bin/Rscript --vanilla
 
-# 2Histo.R
+# 2histo.R
 # plot a list numbers as histogram from stdin, cat, piped, ...
 # add boxplot and quantiles for good measure
 #
 # Stephane Plaisance (VIB-NC+BITS) 2015/04/02; v1.0
+# renamed 2histo.R; v1.01
 #
 # visit our Git: https://github.com/BITS-VIB
 
