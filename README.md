@@ -1,5 +1,5 @@
 [(BITS-VIB)](https://github.com/BITS-VIB)
-plotting-tools
+# plotting-tools
 
 Create plots from numbers.
 
